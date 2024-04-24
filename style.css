@@ -163,8 +163,9 @@ html,body{
     margin-left: 20px;
     margin-right: 20px;
     color: transparent;
-    -webkit-text-stroke:.1px red;
+    -webkit-text-stroke:1px red;
     font-size: 50px;
+    font-weight: 100;
 }
 .nikename :nth-child(1) {
     margin-top: 11px;
