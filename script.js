@@ -1,7 +1,6 @@
 var tl=gsap.timeline();    
 gsap.set(".a",{opacity:0,y:10})
 gsap.set(".puma_red",{opacity:0,y:10,scale:.6})
-gsap.set(".nikename",{opacity:0,y:40})
 
 tl
  .from(".left",{
@@ -28,13 +27,6 @@ tl
     scale:1,
     ease:Expo.easeInOut,
     duration:1.5,
-})
-.to(".nikename ",{
-    delay:-2,
-    opacity:1.5,
-    y:0,
-    ease:Expo.easeInOut,
-    duration:1,
 })
 
 
