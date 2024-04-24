@@ -27,11 +27,11 @@ tl
     y:0,
     scale:1,
     ease:Expo.easeInOut,
-    duration:1,
+    duration:1.5,
 })
 .to(".nikename ",{
     delay:-2,
-    opacity:1,
+    opacity:1.5,
     y:0,
     ease:Expo.easeInOut,
     duration:1,
